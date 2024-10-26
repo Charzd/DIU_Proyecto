@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import './layout/index.scss';
+@import './nav-bar/index.scss';
+@import './tramites-page/index.scss';
+@import './resultados/index.scss';
+@import './chatbot/index.scss';
+@import './buscador/index.scss';
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}

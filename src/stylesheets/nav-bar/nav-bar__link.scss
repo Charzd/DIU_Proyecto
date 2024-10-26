@@ -1,0 +1,11 @@
+.nav-bar__link {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+
+  &--active {
+    background: #2d34ab;
+    color: white;
+  }
+}

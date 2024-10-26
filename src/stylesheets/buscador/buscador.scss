@@ -1,0 +1,29 @@
+.buscador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buscador__input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.buscador__button, .buscador__voice-button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #004080;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador__button:hover, .buscador__voice-button:hover {
+    background-color: #002a5c;
+}
