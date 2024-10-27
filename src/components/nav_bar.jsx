@@ -21,6 +21,12 @@ export const NavBar = () => {
       >
         Trámites
       </NavLink>
+      <NavLink
+        className={navLinkClass}
+        to='/becas'
+      >
+        Becas
+      </NavLink>
     </nav>
   )
 }

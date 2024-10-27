@@ -1,5 +1,5 @@
 import React from "react";
-import '../stylesheets/chatbot/chatbot.scss';;
+import '../stylesheets/chatbot/chatbot.scss';
 
 const Chatbot = () => {
     return (

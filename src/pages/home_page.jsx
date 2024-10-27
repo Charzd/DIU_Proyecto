@@ -1,7 +1,8 @@
 import React from 'react'
 import NavBar from '../components/nav_bar'
-import Chatbot from '../components/chatbot'
+import ChatButton from '../components/chatbutton'
 import Buscador from '../components/buscador'
+
 
 
 export const HomePage = () => {
@@ -10,7 +11,7 @@ export const HomePage = () => {
       <NavBar />
       <Buscador />
       <p> ¡Bienvenido a Relaciones Estudiantiles USM!</p>
-      <Chatbot /> 
+      <ChatButton />
     </>
   )
 }

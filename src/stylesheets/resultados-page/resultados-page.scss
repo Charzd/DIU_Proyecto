@@ -1,0 +1,31 @@
+.resultados {
+  padding: 20px;
+  .resultados__titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .resultados__publicaciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+    .publicacion {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+      }
+      h3 {
+        margin: 10px 0;
+      }
+      p {
+        color: #666;
+      }
+    }
+  }
+}
