@@ -25,9 +25,39 @@
     overflow-y: auto;
 }
 
+.chatbot__message {
+    margin: 5px 0;
+    padding: 4px 12px;
+    border-radius: 8px;
+    background-color: #23a2dd;
+    display: block;
+    width: fit-content;
+    max-width: 80%; 
+}
+
+
+.chatbot__input-container {
+    display: flex;
+    margin-top: 10px; 
+}
+
 .chatbot__input {
+    flex: 1;
     border: none;
     padding: 10px;
     border-radius: 0 0 8px 8px;
     outline: none;
+}
+
+.chatbot__send-button {
+    background-color: #004080;
+    color: white; // Color de la flecha
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0; 
+}
+
+.chatbot__send-button:hover {
+    background-color: #003366; 
 }
