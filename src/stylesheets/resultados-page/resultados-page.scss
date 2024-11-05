@@ -1,11 +1,9 @@
 .resultados {
   padding: 20px;
-
   .resultados__titulo {
     font-size: 24px;
     margin-bottom: 20px;
   }
-
   .resultados__publicaciones {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
