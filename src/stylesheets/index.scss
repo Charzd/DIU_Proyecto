@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import './layout/index.scss';
+@import './nav-bar/index.scss';
+@import './tramites-page/index.scss';
+@import './becas-page/index.scss';
+@import './resultados-page/index.scss';
+@import './chatbot/index.scss';
+@import './chatbutton/index.scss';
+@import './buscador/index.scss';
+@import './rut/index.scss';
+@import './ventana/index.scss';
+@import './filtros/index.scss';
+@import './noticia-page/index.scss';
+@import './home-page/index.scss';
+
+
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}

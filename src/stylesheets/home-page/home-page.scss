@@ -1,0 +1,38 @@
+.home {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: calc(100vh - 60px);  // Se asegura de ocupar casi toda la pantalla verticalmente
+    
+    &__titulo {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    &__contenido {
+      display: flex;          // Flexbox para facilitar la alineación
+      align-items: flex-start; // Alineación superior para el texto y la imagen
+      margin-left: 20px;
+
+      img {
+        float: left;          // Flotar la imagen para que el texto esté a la derecha
+        margin-right: 20px;   // Espacio entre la imagen y el texto
+        max-width: 100%;      // Ajusta la imagen al contenedor
+        height: auto;
+      }
+
+      p {
+        font-size: 1em;
+        line-height: 1.6;
+      }
+
+      // Limpieza de flotación para evitar que otros elementos se muevan incorrectamente
+      &::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+.layout {
+  &__header {
+    background-color: hsl(200, 100%, 28%); // Color azul
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  &__logo img {
+    width: 450px;
+    margin-right: 20px;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__page {
+    padding: 20px;
+  }
+
+  &__footer {
+    background-color: hsl(200, 100%, 28%); // Mismo color azul para el pie de página
+    height: 30px;
+  }
+}
