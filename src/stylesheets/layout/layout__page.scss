@@ -1,6 +1,6 @@
 .layout {
   &__header {
-    background-color: hsl(200, 100%, 28%); // Color azul
+    background-color: hsl(200, 100%, 28%); 
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -31,7 +31,7 @@
   }
 
   &__footer {
-    background-color: hsl(200, 100%, 28%); // Mismo color azul para el pie de página
+    background-color: hsl(200, 100%, 28%);
     height: 30px;
   }
 }

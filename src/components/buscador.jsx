@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Asegúrate de estar usando react-router-dom para la navegación
+import { useNavigate } from "react-router-dom";
 import '../stylesheets/buscador/buscador.scss';
 
 const Buscador = () => {
@@ -9,6 +9,8 @@ const Buscador = () => {
     const handleTextSearch = () => {
         if (query.trim()) {
             navigate(`/resultados?query=${encodeURIComponent(query)}`);
+            setQuery("");
+            placeholder="Escribe tu búsqueda..."
         }
     };
 
